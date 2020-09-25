@@ -1,0 +1,15 @@
+{
+  "name": "aprendendo-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.26.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "sass src/sass/index.scss build/css/index.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

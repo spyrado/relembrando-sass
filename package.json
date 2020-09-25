@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "compile": "sass src/sass/index.scss build/css/index.css"
+    "compile": "sass src/sass/index.scss build/css/index.css",
+    "start": "browser-sync start --server --files 'build/css/*.css' & sass --watch src/sass/index.scss:build/css/index.css"
   },
   "author": "",
   "license": "ISC"
